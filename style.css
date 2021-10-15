@@ -4,8 +4,7 @@ body {
 
     position:relative;
 }
-#div1{
-
+.div1{
     height: 10%;
     width: 50%;
     margin: 0;
@@ -14,14 +13,35 @@ body {
     left:25%; 
 }
 
-#asd{
+.sticky{
+
+    position:sticky;
+
+}
+
+#frame1{
     font-size: 4vw;
     text-align: center;
-    animation: 2s ease-in 0s 1 appear;
+    animation: 4s ease-in 0s 1 appear;
+    opacity: 0%;;
+}
+#frame2{
+    font-size: 4vw;
+    text-align: center;
+    opacity: 0%;
+    animation: 4s ease-in 3s 1 appear;
+}
+#frame3{
+    font-size: 4vw;
+    text-align: center;
+    opacity: 0%;
+    animation: 4s ease-in 6s 1 appear;
 }
 
 @keyframes appear{
     0%{opacity: 0%;}
-    50%{opacity: 0%;}
-    100%{opacity: 100%;}
+    25%{opacity: 0%;}
+    50%{opacity: 100%;}
+    75%{opacity: 100%;}
+    100%{opacity: 0%;}
 }
