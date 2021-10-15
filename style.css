@@ -37,7 +37,7 @@ body {
     font-size: 4vw;
     text-align: center;
     opacity: 0%;
-    animation: 4s ease-in 6s 1 appear;
+    animation: 4s ease-in 6s 1 appear2;
 }
 
 @keyframes appear{
@@ -46,4 +46,10 @@ body {
     50%{opacity: 100%;}
     75%{opacity: 100%;}
     100%{opacity: 0%;}
+}
+@keyframes appear2{
+    0%{opacity: 0%;}
+    25%{opacity: 0%;}
+    50%{opacity: 100%;}
+    100%{opacity: 100%;}
 }
