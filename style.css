@@ -17,4 +17,16 @@ body {
 #asd{
     font-size: 4vw;
     text-align: center;
+    animation: 2s ease-in 0s 1 appear;
+}
+@keyframes appear{
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity: 100%;
+    }
 }
