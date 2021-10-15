@@ -8,11 +8,13 @@ body {
     height: 10%;
     width: 50%;
     margin: 0;
-    position: relative;
+    
     top: 45%;
     left:25%; 
 }
-
+.relative{
+    position: relative;
+}
 .sticky{
 
     position:sticky;
