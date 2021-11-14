@@ -5,12 +5,14 @@ body {
     position:relative;
 }
 .div1{
-    height: 10%;
-    width: 50%;
-    margin: 0;
-    
-    top: 45%;
-    left:25%; 
+    height: 400px;
+    width: 400px;
+    margin: auto auto;
+    top:20%;
+    background:url(images/charizard.png);
+    background-repeat: no-repeat ;
+    background-size:cover;
+    animation: 4s ease-in 0s 1 appear;
 }
 .relative{
     position: relative;
@@ -21,29 +23,12 @@ body {
 
 }
 
-#frame1{
-    font-size: 4vw;
-    text-align: center;
-    animation: 4s ease-in 0s 1 appear;
-    opacity: 0%;;
-}
-#frame2{
-    font-size: 4vw;
-    text-align: center;
-    opacity: 0%;
-    animation: 4s ease-in 3s 1 appear;
-}
-#frame3{
-    font-size: 4vw;
-    text-align: center;
-    opacity: 0%;
-    animation: 4s ease-in 6s 1 appear;
-}
+
 
 @keyframes appear{
-    0%{opacity: 0%;}
+    0%{opacity: 0%; top:30%;}
     25%{opacity: 0%;}
-    50%{opacity: 100%;}
+    50%{opacity: 100%;top:20%;}
     75%{opacity: 100%;}
-    100%{opacity: 0%;}
+    100%{opacity: 100%;}
 }
