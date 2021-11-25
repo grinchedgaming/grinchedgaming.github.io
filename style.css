@@ -1,8 +1,39 @@
 body {
-    height: 90%;
-    width: 99%;
-
+    height: 100%;
+    width: 100%;
+    margin:0;
+    padding:0;
     position:relative;
+}
+
+#link_container{
+    width: 100%;
+    background: blue;
+    height:10%;
+    position:absolute;
+    padding:0px;
+}
+#link_container ul{
+    display: inline;
+    text-decoration: none;
+    position: relative;
+    height:3.5vh;
+    float:right;
+    margin: 0px;
+    top:33%;
+}
+#link_container ul li{
+    display: inline;
+    text-decoration: none;
+    list-style-type: none;
+    margin:0 50px;
+}
+#link_container ul li a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 2vh;
+    
 }
 .div1{
     height: 400px;
